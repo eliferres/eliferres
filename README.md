@@ -2,7 +2,7 @@
 
 Forward-deployed engineer and design systems builder. I sit inside a business, find the work still done by hand, and ship the software that replaces it, to a bar I can name and a machine can grade.
 
-Head of Product and Operations at [Dimension Studios](https://dimensionstudios.co). Nine years in startups before that, across operations, design, systems, and running teams. Self-taught. Most of what I know about software I learned by shipping 4,000+ commits of it into production with AI as the pair. Before software, seven years growing gaming content brands past a billion views.
+Ten years in startups, most recently as Head of Product and Operations at a creator-commerce company, across operations, design, systems, and running teams. Self-taught. Most of what I know about software I learned by shipping 4,000+ commits of it into production with AI as the pair. Before software, seven years growing gaming content brands past a billion views.
 
 The idea under everything below: write the taste down until a machine can hold the line. The app defines its own design language and a token gate fails any build that carries a hand-typed hex. The same rule holds for code and for memory.
 
@@ -30,13 +30,13 @@ Most of it lives in private repos.
 <details>
 <summary><b>The full list</b></summary>
 
-**For Dimension Studios**
+**Inside a creator-commerce company (2025 to 2026)**
 
 - **Operations platform**: the internal app the company runs on. Revenue analytics, cash reconciliation, automated billing, capacity planning, brand KPIs, and role-based access for the whole team.
 - **Affiliate platform**: affiliate deals tracked end to end, from signed contract through deal pipeline to payout and reserve accounting, driven by events from the contract, banking, and billing systems, with full audit trails.
 - **Design system**: one design language the app itself defines, a token gate that fails any build carrying a hand-typed value, and high-fidelity prototypes that are the spec engineering builds against.
 - **AI operating layer**: reconciliation agents, daily briefs, and automations in use across every department.
-- **[Marketing site](https://dimensionstudios.co)**: the company's public site, one platform story told three ways (brands, agencies, creators), copy grounded in real meeting transcripts.
+- **Marketing site**: the company's public site, one platform story told three ways (brands, agencies, creators), copy grounded in real meeting transcripts.
 
 **Client and personal builds**
 
