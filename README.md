@@ -8,8 +8,10 @@ The idea under everything below: write the taste down until a machine can hold t
 
 ## Open source
 
-Ten pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. All ten are public.
+Twelve pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. All twelve are public. Start with the two design-systems tools, then the memory vault.
 
+- **[design-token-gate](https://github.com/eliferres/design-token-gate)**: fails the build on any hand-typed design value. Ladders read from the tokens file, a debt list that only shrinks.
+- **[motion-bar](https://github.com/eliferres/motion-bar)**: a static linter for UI motion. Named rules for duration, easing, frequency, and reduced motion, with exit codes for CI.
 - **[agent-memory-vault](https://github.com/eliferres/agent-memory-vault)**: plain-file memory for AI agents. A router note, one home per topic, newest wins.
 - **[session-continuity](https://github.com/eliferres/session-continuity)**: checkpoints for AI agents that keep the decisions, paths, and dead ends a summary drops.
 - **[claude-code-guardrails](https://github.com/eliferres/claude-code-guardrails)**: deterministic hooks that refuse dangerous commands before they run, with a liveness harness that proves the guards still block.
