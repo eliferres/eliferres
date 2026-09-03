@@ -8,11 +8,18 @@ The idea under everything below: write the taste down until a machine can hold t
 
 ## Open source
 
-Pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. Three are public today. Seven more are on the way.
+Ten pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. All ten are public.
 
 - **[agent-memory-vault](https://github.com/eliferres/agent-memory-vault)**: plain-file memory for AI agents. A router note, one home per topic, newest wins.
-- **[ripple-wall](https://github.com/eliferres/ripple-wall)**: a fail-closed wall for config drift. Nothing closes until every mapped copy moves or carries a written reason.
 - **[session-continuity](https://github.com/eliferres/session-continuity)**: checkpoints for AI agents that keep the decisions, paths, and dead ends a summary drops.
+- **[claude-code-guardrails](https://github.com/eliferres/claude-code-guardrails)**: deterministic hooks that refuse dangerous commands before they run, with a liveness harness that proves the guards still block.
+- **[ripple-wall](https://github.com/eliferres/ripple-wall)**: a fail-closed wall for config drift. Nothing closes until every mapped copy moves or carries a written reason.
+- **[design-bar](https://github.com/eliferres/design-bar)**: design taste written down until machines and strangers can hold the line. Rulebook, checkers, slop scanner, review panel.
+- **[website-bar](https://github.com/eliferres/website-bar)**: grades a page against a named craft bar. One JSON config, a deterministic report, exit codes for CI.
+- **[agent-eval-harness](https://github.com/eliferres/agent-eval-harness)**: blind two-arm evaluation for AI agent work. Hidden tests, an anonymized judge, a four-legged ship verdict.
+- **[routine-fleet](https://github.com/eliferres/routine-fleet)**: keeps scheduled AI routines honest. A twin-run guard, a watchdog for silent deaths, parity against the live scheduler.
+- **[speed-watchdog](https://github.com/eliferres/speed-watchdog)**: a speed meter for agent harnesses. Median timings, frozen baselines, an alarm the day something gets slower.
+- **[phone-body](https://github.com/eliferres/phone-body)**: one brain, two bodies. The same assistant at your desk and in your pocket, synced through a plain-file vault.
 
 ## What I've built
 
