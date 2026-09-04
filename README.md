@@ -1,10 +1,10 @@
 # Eli Ferres
 
-Forward-deployed engineer and design systems builder. I sit inside a business, find the work still done by hand, and ship the software that replaces it, to a bar I can name and a machine can grade.
+I'm a forward-deployed engineer and design systems builder that sits inside a business, finds any bit of manual work, and then ships replacement software to a named bar and a machine-gradable standard.
 
-Ten years in startups, most recently as Head of Product and Operations at a creator-commerce company, across operations, design, systems, and running teams. Self-taught. Most of what I know about software I learned by shipping 4,000+ commits of it into production with AI as the pair. Before software, seven years growing gaming content brands past a billion views.
+I've spent ten years at startups doing end-to-end ship lines, mostly most recently as Head of Product and Operations at a creator-commerce company. I cut my teeth in operations, relished in the process of design, learned the rigors of systems, and rose to team leadership. I'm self-taught, mostly because I picked up only the basics of software from a college course and learned it all by shipping something like 4000 commits to tens of projects with only artificial intelligence as my pair. Before software I spent seven years growing gaming content brands past a billion views.
 
-The idea under everything below: write the taste down until a machine can hold the line. The app defines its own design language and a token gate fails any build that carries a hand-typed hex. The same rule holds for code and for memory.
+It all comes down to one central idea: write the taste down until a machine can hold the line. That's why my app defines its own design language and any build that would ship incorrect token gate fails under a handful of rules I've written, not code written by me at some specific point in the past, but code that checks against the same grain that makes my app feel the way it does. No hand-typed hex values anywhere in sight. It's the same rule that governs my code and my memory.
 
 ## Open source
 
