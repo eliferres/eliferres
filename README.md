@@ -1,11 +1,5 @@
 # Eli Ferres
 
-I'm a forward-deployed engineer and design systems builder. I sit inside a business, find the work still done by hand, and ship the software that replaces it, to a bar I can name and a machine can grade.
-
-Ten years in startups, most recently as Head of Product and Operations at a creator-commerce company. I started in operations, fell for design, learned systems the hard way, and ended up running teams. Self-taught: one college course for the basics, then something like 4,000 commits across dozens of projects with AI as my pair. Before software I spent seven years growing gaming content brands past a billion views.
-
-The idea under all of it: write the taste down until a machine can hold the line. My app defines its own design language, and a gate reads those rules and fails any build that ships a hand-typed value. Same rule for my code and my memory.
-
 ## Open source
 
 Twelve pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. All twelve are public. Start with the two design-systems tools, then the memory vault.
