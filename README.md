@@ -2,7 +2,7 @@
 
 ## Open source
 
-Twelve pieces of the system my AI assistant runs on, released as standalone zero-dependency repos. All twelve are public. Start with the two design-systems tools, then the memory vault.
+Twelve pieces of the system my AI Chief of Staff runs on, released as standalone zero-dependency repos. All twelve are public. Start with the two design-systems tools, then the memory vault.
 
 - **[design-token-gate](https://github.com/eliferres/design-token-gate)**: fails the build on any hand-typed design value. Ladders read from the tokens file, a debt list that only shrinks.
 - **[motion-bar](https://github.com/eliferres/motion-bar)**: a static linter for UI motion. Named rules for duration, easing, frequency, and reduced motion, with exit codes for CI.
