@@ -1,5 +1,7 @@
 # Eli Ferres
 
+Eight years at high growth startups beside senior leadership, across operations, technology, product design and content, leading teams of 50+. Fully AI native, relentlessly resourceful, structured & process driven, and always at the frontier of AI and technology.
+
 ## Open source
 
 Twelve pieces of the system my AI Chief of Staff runs on, released as standalone zero-dependency repos.
