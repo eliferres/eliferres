@@ -19,10 +19,14 @@ Twelve pieces of the system my AI Chief of Staff runs on, released as standalone
 - **[speed-watchdog](https://github.com/eliferres/speed-watchdog)**: a speed meter for agent harnesses. Median timings, frozen baselines, an alarm the day something gets slower.
 - **[phone-body](https://github.com/eliferres/phone-body)**: one brain, two bodies. The same assistant at your desk and in your pocket, synced through a plain-file vault.
 
+## At work, under NDA
+
+Inside a multi-brand agency I built the company's operating platform (18 modules, 4,700+ tests), an automated affiliate CRM, a customer support AI agent with human approval and confidence scoring, a customer support CRM, and a team bandwidth algorithm. The code is private.
+
 ## What I've built
 
 - **[Well Dealt](https://welldealt.com)**: a credit card answer engine that does the math and gives the honest answer, not the affiliate one.
-- **[Fulcrus](https://fulcrus.com)**: AI readiness assessments for businesses, plus the client infrastructure behind it (per-client repos, playbooks, deploy rails).
+- **[Ferres Tech](https://fulcrus.com)**: AI readiness assessments for businesses, plus the client infrastructure behind it (per-client repos, playbooks, deploy rails).
 - **[Fivestarbuilt](https://fivestarbuilt.com)**: website rebuilds for highly rated local businesses, from lead sourcing to the finished site.
 - **[Ferris Legacy](https://ferrislegacy.com)**: full website for a painting company.
 - **Zireael**: my personal AI operating system. Persistent memory, enforcement hooks, scheduled routines, and a 24/7 Telegram agent. The twelve repos above are pieces of it.
