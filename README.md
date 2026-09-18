@@ -1,6 +1,6 @@
 # Eli Ferres
 
-Eight years running operations, finance, product and content at high growth startups, for teams of 50+. Now I build the software that runs them. AI native.
+Team player, builder and achiever by nature. Excellence is my standard. I’ve worked 8 years at startups, led teams of 50+ and generated 2B+ organic views. My wheelhouse is building agentic systems, management, communication and resourcefulness. I know how to get 1 + 1 = 3 results. AI native, experienced in operations, product, content & technology.
 
 ## Open source
 
@@ -21,7 +21,7 @@ Twelve zero-dependency pieces of the agent operating system I run every day.
 
 ## At work, under NDA
 
-Inside a multi-brand agency: the company's operating platform (18 modules, 4,700+ tests), an automated affiliate CRM, a customer support AI agent with human approval, a customer support CRM and a team bandwidth algorithm. The code is private.
+Inside a TikTok Shop agency: the company's operating platform (18 modules, 4,700+ tests), an automated affiliate CRM, a customer support AI agent with human approval, a customer support CRM and a team bandwidth algorithm. The code is private.
 
 ## What I've built
 
