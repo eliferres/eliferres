@@ -26,7 +26,7 @@ Inside a TikTok Shop agency: the company's operating platform (18 modules, 4,700
 ## What I've built
 
 - **[Well Dealt](https://welldealt.com)**: a credit card answer engine that gives the honest answer, not the affiliate one.
-- **[Ferres Tech](https://ferrestech.com)**: AI readiness assessments for businesses.
+- **[Ferres Tech](https://ferrestech.com)**: AI software for small businesses.
 - **[Fivestarbuilt](https://fivestarbuilt.com)**: website rebuilds for highly rated local businesses.
 - **[Ferris Legacy](https://ferrislegacy.com)**: a full website for a painting company.
 - **Zireael**: my personal AI operating system. The twelve repos above are pieces of it.
