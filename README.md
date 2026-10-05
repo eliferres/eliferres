@@ -1,7 +1,20 @@
 # Eli Ferres
 
-Team player, builder and achiever by nature. Excellence is my standard. I’ve worked 8 years at startups, led teams of 50+ and generated 2B+ organic views. My wheelhouse is building agentic systems, management, communication and resourcefulness. I know how to get 1 + 1 = 3 results. AI native, experienced in operations, product, content & technology.
+I'm an operational brain, and I've been this way since I was 14 years old. I've worked 8 years at startups, led teams of 50+ and generated 2B+ organic views. I've owned end-to-end a few internal software platforms that I built out. My wheelhouse is building agentic systems, management, communication and resourcefulness. I know how to get 1 + 1 = 3 results. AI native, experienced in operations, product, content & technology.
 
+At Dimension Studios I ran operations, growth, finance, contracts, customer support and product for a TikTok Shop agency serving 75+ brands. I built the company's internal operating platform, first with Notion, ClickUp and Linear, then on custom software. I also built a customer-service AI agent that drafts answers from TikTok Shop docs and 72,000 answered questions distilled from 250,000 team messages. A person approves each answer, and a 200-question test grades it against real team replies.
+
+→ Found $300K+ in accounting errors
+→ $1M+ in creator video sales from zero
+→ Built internal operating platform
+→ Built a customer support AI agent (RAG)
+→ Managed teams of 50+ and department heads
+→ 2 Billion+ organic YouTube views
+→ 4 Million+ followers
+
+Team player, builder and achiever by nature. Excellence is my standard.
+
+Portfolio: eliferres.com
 ## Open source
 
 Seventeen zero-dependency tools from the agent stack I run every day. Each one installs in one line and ships with tests on Linux and macOS.
