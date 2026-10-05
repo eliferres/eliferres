@@ -4,20 +4,30 @@ Team player, builder and achiever by nature. Excellence is my standard. I’ve w
 
 ## Open source
 
-Twelve zero-dependency pieces of the agent operating system I run every day.
+Seventeen zero-dependency tools from the agent stack I run every day. Each one installs in one line and ships with tests on Linux and macOS.
 
+**Agent infrastructure**
+
+- **[claude-code-guardrails](https://github.com/eliferres/claude-code-guardrails)**: hooks that refuse dangerous commands before they run.
+- **[session-continuity](https://github.com/eliferres/session-continuity)**: checkpoints that keep what a context summary drops.
+- **[agent-memory-vault](https://github.com/eliferres/agent-memory-vault)**: plain-file memory for AI agents. No database, no embeddings.
+- **[codex-hook-bridge](https://github.com/eliferres/codex-hook-bridge)**: runs the hooks you wrote for Claude Code under the Codex CLI.
+- **[agent-eval-harness](https://github.com/eliferres/agent-eval-harness)**: blind two-arm evaluation for AI agent work.
+- **[eval-alarm](https://github.com/eliferres/eval-alarm)**: regression alarms for prompts and skills, scored on fixed cases.
+- **[routine-fleet](https://github.com/eliferres/routine-fleet)**: keeps scheduled AI routines honest.
+- **[token-watchdog](https://github.com/eliferres/token-watchdog)**: flags the sessions that burn tokens for nothing, and says why.
+- **[speed-watchdog](https://github.com/eliferres/speed-watchdog)**: an alarm the day your agent harness gets slower.
+- **[ripple-wall](https://github.com/eliferres/ripple-wall)**: nothing closes until every copy of a config has moved.
+- **[phone-body](https://github.com/eliferres/phone-body)**: one assistant at your desk and in your pocket.
+
+**Frontend quality**
+
+- **[layout-ruler](https://github.com/eliferres/layout-ruler)**: measures rendered pages in headless Chrome and prints the pixels that are off.
+- **[a11y-bar](https://github.com/eliferres/a11y-bar)**: the accessibility rules a machine can decide from the files, with no browser.
+- **[website-bar](https://github.com/eliferres/website-bar)**: grades a page against a named craft bar.
+- **[design-bar](https://github.com/eliferres/design-bar)**: design taste written down until machines can hold the line.
 - **[design-token-gate](https://github.com/eliferres/design-token-gate)**: fails the build on any hand-typed design value.
 - **[motion-bar](https://github.com/eliferres/motion-bar)**: a static linter for UI motion, with exit codes for CI.
-- **[agent-memory-vault](https://github.com/eliferres/agent-memory-vault)**: plain-file memory for AI agents. No database, no embeddings.
-- **[session-continuity](https://github.com/eliferres/session-continuity)**: checkpoints that keep what a context summary drops.
-- **[claude-code-guardrails](https://github.com/eliferres/claude-code-guardrails)**: hooks that refuse dangerous commands before they run.
-- **[ripple-wall](https://github.com/eliferres/ripple-wall)**: nothing closes until every copy of a config has moved.
-- **[design-bar](https://github.com/eliferres/design-bar)**: design taste written down until machines can hold the line.
-- **[website-bar](https://github.com/eliferres/website-bar)**: grades a page against a named craft bar.
-- **[agent-eval-harness](https://github.com/eliferres/agent-eval-harness)**: blind two-arm evaluation for AI agent work.
-- **[routine-fleet](https://github.com/eliferres/routine-fleet)**: keeps scheduled AI routines honest.
-- **[speed-watchdog](https://github.com/eliferres/speed-watchdog)**: an alarm the day your agent harness gets slower.
-- **[phone-body](https://github.com/eliferres/phone-body)**: one assistant at your desk and in your pocket.
 
 ## At work, under NDA
 
@@ -29,6 +39,5 @@ Inside a TikTok Shop agency: the company's operating platform (18 modules, 4,700
 - **[Ferres Tech](https://ferrestech.com)**: AI software for small businesses.
 - **[Fivestarbuilt](https://fivestarbuilt.com)**: website rebuilds for highly rated local businesses.
 - **[Ferris Legacy](https://ferrislegacy.com)**: a full website for a painting company.
-- **Zireael**: my personal AI operating system. The twelve repos above are pieces of it.
 
-Built daily with Claude Code. [LinkedIn](https://linkedin.com/in/eliyahuferres) · [eliferres.com](https://eliferres.com)
+[LinkedIn](https://linkedin.com/in/eliyahuferres) · [eliferres.com](https://eliferres.com)
