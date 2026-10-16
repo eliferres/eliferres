@@ -1,0 +1,63 @@
+name: links
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays: catches links that die between pushes
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check README links and signature assets
+        shell: python3 {0}
+        run: |
+          import os, re, sys, time, urllib.error, urllib.request
+
+          readme = open("README.md", encoding="utf-8").read()
+          failures = []
+
+          # The signature images must exist, and so must any local asset README points at.
+          required = {"assets/signature/bird-clean.png", "assets/signature/linkedin.png"}
+          referenced = set(re.findall(r"assets/[\w./-]+\.\w+", readme))
+          for path in sorted(required | referenced):
+              if not os.path.isfile(path):
+                  failures.append(f"missing asset: {path}")
+
+          # Bare and markdown URLs; trim trailing punctuation a sentence or a link wraps around them.
+          urls = sorted({u.rstrip(".,;:!?'\"") for u in re.findall(r"https?://[^\s<>()\[\]`]+", readme)})
+          ua = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
+
+          def status(url):
+              # HTTP status, or an error string for network trouble; retries ride out blips.
+              result = None
+              for attempt in range(3):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": ua})
+                      with urllib.request.urlopen(req, timeout=15) as r:
+                          return r.status
+                  except urllib.error.HTTPError as e:
+                      result = e.code
+                      if e.code in (404, 410):
+                          return e.code
+                  except Exception as e:
+                      result = f"{type(e).__name__}: {e}"
+                  time.sleep(2 * (attempt + 1))
+              return result
+
+          dead = 0
+          for url in urls:
+              s = status(url)
+              if s in (404, 410):
+                  dead += 1
+                  failures.append(f"dead link ({s}): {url}")
+              elif not (isinstance(s, int) and s < 400):
+                  # 429, 5xx, timeouts, TLS: a flaky host, not a broken README.
+                  print(f"::warning::{url} -> {s}")
+
+          for f in failures:
+              print(f"::error::{f}")
+          print(f"checked {len(urls)} links, {dead} dead")
+          sys.exit(1 if failures else 0)
