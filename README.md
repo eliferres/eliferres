@@ -49,17 +49,6 @@ fde-agent-skills is a skills library that holds the methods I use on production 
 - **[Fivestarbuilt](https://fivestarbuilt.com)**: website rebuilds for highly rated local businesses.
 - **[Ferris Legacy](https://ferrislegacy.com)**: a full website for a painting company.
 
-## Private work
-
-Data, systems and AI lead for a multi-brand consumer goods company, 2026 to now: I build accounting automations, a company data layer and an operations hub. The code is private.
-
-Head of Operations, November 2024 to September 2026: day-to-day operations for a 40+ brand TikTok Shop company, from finance and billing to customer support and internal systems. The code is private.
-
-→ Built the internal operating platform  
-→ Built a customer support AI agent with human approval  
-→ Built an automated affiliate and creator CRM  
-→ Led the operations and customer support teams
-
 ## About
 
 I have had an operations mind since I was 14 and have spent 8 years at startups. I have built internal software platforms and owned them end to end. I am AI native, with experience in operations, product, content and technology. My strengths are building agentic systems, management, communication and resourcefulness.
